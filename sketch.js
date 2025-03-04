@@ -17,6 +17,12 @@ function draw() {
   // Insert the background image as an image
   image(imgBg, 0, 0);
   // Set the text size
+
+  textSize(70);
+  // Explain what keys to use
+  fill(255);
+  text("Press 'w' to increase text alpha", 100, 100);
+  text("Press 's' to decrease text alpha", 100, 200);
   textSize(200);
   // Set the text color
   fill(255, 255, 255, textAlpha);
